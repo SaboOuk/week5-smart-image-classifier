@@ -1,15 +1,15 @@
-# Computer Vision Image Classifier
+# Week 5 Project: Smart Image Classifier
 
-## Project Overview
-This project implements image classification using computer vision concepts from Chapter 24. The AI can recognize objects in images using a neural network trained with Google Teachable Machine. It supports classifying uploaded images through a Flask web interface and can also classify images using a webcam in real time.
+## Overview
+This project builds an image classification system using **Google Teachable Machine** and **Python**.  
+It can classify objects from uploaded images and from a live webcam feed.
 
-## My Classification Task
-- **Classes:** [List your 3–5 classes here, e.g., Pen, Phone, Mug, Book]
-- **Training Images:** [Number of images per class, e.g., 60 per class]
-- **Accuracy:** [Your test accuracy %, e.g., 92%]
+## Project Structure
+- `classifier.py` - Loads model, preprocesses images, predicts classes, visualizes results, webcam mode
+- `web_interface.py` - Flask web app for uploading images and showing predictions
+- `test_classifier.py` - Menu-based tester for folder images, webcam, and explanation
+- `model/` - Teachable Machine exported model (`keras_model.h5`) and `labels.txt`
 
-## How to Run
-
-### 1) Install Requirements
+## Setup
 ```bash
 pip install -r requirements.txt
