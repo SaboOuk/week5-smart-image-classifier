@@ -1,0 +1,5 @@
+0 mouse
+1 keyboard
+2 manga
+3 moisturizer
+4 vitamins
